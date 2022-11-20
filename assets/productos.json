@@ -1,0 +1,96 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "nombre": "Intel Pentium Gold G7400",
+            "descripcion": "12th Generación. Socket S1700",
+            "precio": 8858,
+            "stock": 3,
+            "img": "pentiumGold.png",
+           "destacad": 1,
+            "marca": "Intel"
+        },
+        {
+            "id": 2,
+            "nombre": "Intel Celeron G6900 3.5GHz",
+            "descripcion": "12th Generación. Socket S1700",
+            "precio": 5907,
+            "stock": 27,
+            "img": "celeron.png",
+            "destacado": 1,
+            "marca": "Intel"
+        },
+    
+        {
+            "id": 3,
+            "nombre": "Intel i3 12100F",
+            "descripcion": "12th Generación. Sin video. Socket S1700",
+            "precio": 8858,
+            "stock": 38,
+            "img": "i3.png",
+            "destacado": 1,
+            "marca": "Intel"
+        },
+        {
+            "id": 4,
+            "nombre": "Intel i3 12100",
+            "descripcion": "12th Generación. Video integrado. Socket S1700",
+            "precio": 23371,
+            "stock": 15,
+            "img": "i3.png",
+            "destacado": 1,
+            "marca": "Intel"
+        },
+        {
+            "id": 5,
+            "nombre": "AMD Ryzen 5 5600G",
+            "descripcion": "Procesador gamer AMD Ryzen 5 5600G 100-100000252BOX de 6 núcleos y 4.4GHz de frecuencia con gráfica integrada",
+            "precio": 8858,
+            "stock": 1,
+            "img": "r5600x.jpg",
+            "destacado": 1,
+            "marca": "AMD"
+        },
+        {
+            "id": 6,
+            "nombre": "AMD Ryzen 9 5900X",
+            "descripcion": "Procesador gamer AMD Ryzen 9 5900X 100-100000061WOF de 12 núcleos y 4.8GHz de frecuencia",
+            "precio": 5907,
+            "stock": 50,
+            "img": "r5900x.jpg",
+            "destacado": 1,
+            "marca": "AMD"
+        },
+    
+        {
+            "id": 7,
+            "nombre": "AMD Ryzen 7 5800X",
+            "descripcion": "Procesador Amd Ryzen 7 5800x 8 Nucleos 4.7ghz Am4",
+            "precio": 8858,
+            "stock": 100,
+            "img": "r5800x.jpg",
+            "destacado": 1,
+            "marca": "AMD"
+        },
+        {
+            "id": 8,
+            "nombre": "AMD Ryzen 5 5600X",
+            "descripcion": "Procesador gamer AMD Ryzen 5 5600X 100-100000065BOX de 6 núcleos y 4.6GHz de frecuencia",
+            "precio": 23371,
+            "stock": 20,
+            "img": "r5600x.jpg",
+            "destacado": 1,
+            "marca": "AMD"
+        }],
+        
+
+        "marcas":[
+            {
+                "marca":"AMD"
+            },
+            {
+                "marca":"Intel"
+        }
+        ]
+}
+
