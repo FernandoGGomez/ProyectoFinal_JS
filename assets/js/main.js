@@ -41,24 +41,6 @@ gestorProd.renderizarProductos(productos);
 })
 
 
-// async function recuperarMarcas (){
-
-//         const resp = await
-//         fetch(ruta)
-//         const data = await resp.json()
-//         marcas = data.marcas;
-
-        // }
-
-        // fetch(ruta)
-        // .then((resp) => resp.json())
-        // .then((marca) =>{
-
-        //     marcas = marca.marcas;
-
-        // })
-
-
 // Botón registrar nuevo usuario
 let boton_registrar = document.getElementById("boton_registrar");
 boton_registrar.addEventListener("click",pedirDatos)
@@ -81,12 +63,7 @@ function pedirDatos(){
 
     let formRegistrar = document.getElementById("formRegistrar");
     formRegistrar.addEventListener("submit",validarFormularioRegistro);
-
-
-
-    
-
-    
+  
     
 }
 
@@ -129,10 +106,6 @@ boton_iniciarSesion.addEventListener("click",()=>{
     let formIniciarSesion = document.getElementById("formIniciarSesion");
     formIniciarSesion.addEventListener("submit",validarFormularioInicioSesion);
 
-
-    // let user_name = prompt("Ingrese su nombre de usuario");
-    // let password = prompt("Ingrese su contraseña");    
-    // usuario.iniciarSesion(user_name,password);
     }
     });
 
@@ -360,12 +333,6 @@ function restarProducto(id){
             autocomplementado.innerHTML="";
         }
 
-        // if(e.code == "ArrowDown"){
-
-        //     document.getElementById("autocomplementado").focus();
-
-        // }
-
 
     })
 
@@ -450,8 +417,6 @@ function mostrarTodos(productos){
     
 document.addEventListener('DOMContentLoaded', () => {
 
-    // carrito = JSON.parse(localStorage.getItem("carrito")) || [] ;
-    // recuperarMarcas();
     usuario = new RegistroUsuario();
     usuarios = JSON.parse(localStorage.getItem("usuarios")) || [] ;
     usuarioActivo = usuarios.find(u => u.sesion == 1) || [];

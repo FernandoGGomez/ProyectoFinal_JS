@@ -3,7 +3,6 @@ class RegistroUsuario{
    iniciar(){
 
     this.mostrarBotonIniciarSesion();
-    // this.mostrarBotonCerrarSesion();
 
 
    }
@@ -44,13 +43,13 @@ class RegistroUsuario{
                     
                     }
               });
-            // let nombre_usuario_registrar = document.getElementById("nombre_usuario_regsitrar").value="";
-            // let nombre_registrar = document.getElementById("nombre_registrar").value="";
-            // let apellido_registrar = document.getElementById("apellido_registrar").value="";
-            // let e_mail_registrar = document.getElementById("email_registrar").value="";
-            // let contraseña_registrar = document.getElementById("password_registrar").value="";
-            // divRegistrar.classList.remove("visible");
-            // divRegistrar.classList.add("hide");
+            let nombre_usuario_registrar = document.getElementById("nombre_usuario_regsitrar").value="";
+            let nombre_registrar = document.getElementById("nombre_registrar").value="";
+            let apellido_registrar = document.getElementById("apellido_registrar").value="";
+            let e_mail_registrar = document.getElementById("email_registrar").value="";
+            let contraseña_registrar = document.getElementById("password_registrar").value="";
+            divRegistrar.classList.remove("visible");
+            divRegistrar.classList.add("hide");
             
 
 

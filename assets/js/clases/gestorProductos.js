@@ -376,7 +376,6 @@ class GestorProductos {
 
                 autocomplementado.appendChild(li);
 
-                // return buscador.value
             })
         
             
