@@ -157,15 +157,13 @@ class GestorProductos {
 
         let total = this.contarProductos();
         let contadorCarrito = document.getElementById("contadorProducto");
-        if(usuario.sesionIniciada()){
-        
-         
-            
+        if(usuario.sesionIniciada()){      
 
             contadorCarrito.innerHTML = total ;
+
         }else{
 
-            contadorCarrito.innerHTML = total;
+            contadorCarrito.innerHTML = 0;
 
         }
             

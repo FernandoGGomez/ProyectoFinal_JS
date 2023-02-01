@@ -236,6 +236,7 @@ class RegistroUsuario{
                             localStorage.setItem("usuarios",JSON.stringify(usuarios));
                             this.mostrarBotonCerrarSesion();
                             gestorProd.carritoVacio();
+                            gestorProd.contador();
                             
                             
                             boton_iniciarSesion.textContent = "Iniciar Sesión";
